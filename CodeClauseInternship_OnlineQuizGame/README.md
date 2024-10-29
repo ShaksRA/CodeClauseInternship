@@ -1,5 +1,5 @@
 # QUIZ TIME - A WEB TRIVIA GAME
-is a web app based on Reactjs as front end with ant design as React UI library, and deployed on netlify
+QUIZ TIME App is a web app based on Reactjs as front end with ant design as React UI library, and deployed on netlify ,which makes an external API call to the open trivia database and generates a random set of questions. On each game the user will have 30 sec to answer each question and earn it's value and at the end the earn value is displayed.
 
 ## Demo
 https://quiz-time-game.netlify.app/
