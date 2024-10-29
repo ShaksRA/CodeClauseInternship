@@ -122,7 +122,7 @@ function App() {
 
         <Start setUsername={setUserName} />
         <footer>
-          <p className="copyRight">Ⓒ Copyright, {myName} {currentYear}. </p></footer>
+          <p className="copyRight">Ⓒ Copyright, {currentYear}. </p></footer>
       </div>
     ) : (
 
