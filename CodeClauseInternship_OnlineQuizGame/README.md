@@ -13,7 +13,7 @@ QUIZ TIME App is a web app based on Reactjs as front end with ant design as Reac
 ![image](https://user-images.githubusercontent.com/79985779/162590687-13c3ae25-b10f-4c9f-818c-e3c329349da6.png)
 
 #### How to develop it
-1. Clone on your local machine by using https://github.com/varditomer/online-quiz-game-react
+1. Clone on your local machine.
 2. Navigate into the main directory
 3. Run npm install to install node modules
 5. Run npm start to run it locally then will open automatclly on your browser on localhost:3000 port
