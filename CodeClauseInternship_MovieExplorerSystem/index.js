@@ -1,34 +1,51 @@
-import  React from 'react';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
-import FooterComponent from  '../Components/Footer';
-import HeaderComponent from '../Components/Header';
-import HomeContainer from '../Container/Home';
-import ContactContainer from '../Container/Contact';
-import DetailsContainer from '../Container/Details';
-import MoviesContainer from '../Container/Movies';
-import TvSeriesContainer from '../Container/TvSeries';
-import SearchContainer from '../Container/Search';
-import AboutContainer from '../Container/About';
-const  RouteComponent = ()=>{
+const AboutContainer = ()=>{
 
     return (
         <>
-            <BrowserRouter>
-                <HeaderComponent />
-                    <Routes>
-                        <Route path="/" element={<HomeContainer />} />
-                        <Route path='/about' element={<AboutContainer />} />
-                        <Route path="/movies" element={<MoviesContainer />} />
-                        <Route path="/series" element={<TvSeriesContainer />} />
-                        <Route path="/search" element={<SearchContainer />} />
-                        <Route path="/contact" element={<ContactContainer />} />
-                        <Route path="/details/:movieid/:mediatype" element={<DetailsContainer />} />
-                    </Routes>        
-                <FooterComponent />
-            </BrowserRouter>
+            <Container>
+                <Row>
+                    <Col className='pd50'>
+                        <p>About Page</p>
+                        <p>
+                            Movie API Home Page Url :- https://www.themoviedb.org/
+                        </p>
+                        <p>
+                            Movie API Key url :- https://www.themoviedb.org/settings/api
+                        </p>
+                        <p>
+                            Movie API Document Page Url :- https://www.themoviedb.org/documentation/api
+                        </p>
+                        <p>
+                             React Bootstrap Page Url :- React Bootstrap
+                        </p>
+                        <p>
+                            Bootstrap Icons Page Url  :- https://react-icons.github.io/react-icons/icons?name=bs
+                        </p>
+                        <p>
+                             Axios Page Url :- https://www.npmjs.com/package/axios
+                        </p>
+                        <p>
+                            React Pagination :- https://www.npmjs.com/package/react-paginate
+                        </p>
+                        <p>
+                            React Alice Carouse :- https://www.npmjs.com/package/react-alice-carousel
+                        </p>
+
+                        
+
+                        
+
+
+                    </Col>
+                </Row>
+            </Container>
         </>
     )
 }
 
-export default RouteComponent;
+export default AboutContainer;
